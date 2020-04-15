@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/expressionTv"
+        style="@style/TextViewStyle" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        style="@style/TextViewStyle"
+        android:textSize="28sp" />
+
+    <LinearLayout style="@style/LayoutStyle">
+
+        <TextView
+            android:id="@+id/clearBtn"
+            style="@style/ButtonsStyle"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/light_gray_round_btn"
+            android:text="AC"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/openBracBtn"
+            style="@style/ButtonsStyle"
+            android:background="@drawable/light_gray_round_btn"
+            android:text="("
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/closeBracBtn"
+            style="@style/ButtonsStyle"
+            android:background="@drawable/light_gray_round_btn"
+            android:text=")"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/divBtn"
+            style="@style/ButtonsStyle"
+            android:background="@drawable/orange_round_btn"
+            android:text="/" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+
+        <TextView
+            android:id="@+id/sevenBtn"
+            style="@style/ButtonsStyle"
+            android:layout_marginStart="20dp"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/eightBtn"
+            style="@style/ButtonsStyle"
+            android:text="8" />
+
+        <TextView
+            android:id="@+id/nineBtn"
+            style="@style/ButtonsStyle"
+            android:text="9" />
+
+        <TextView
+            android:id="@+id/mulBtn"
+            style="@style/ButtonsStyle"
+            android:background="@drawable/orange_round_btn"
+            android:text="\*" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+
+        <TextView
+            android:id="@+id/fourBtn"
+            style="@style/ButtonsStyle"
+            android:layout_marginStart="20dp"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/fiveBtn"
+            style="@style/ButtonsStyle"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/sixBtn"
+            style="@style/ButtonsStyle"
+            android:text="6" />
+
+        <TextView
+            android:id="@+id/addBtn"
+            style="@style/ButtonsStyle"
+            android:background="@drawable/orange_round_btn"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+
+        <TextView
+            android:id="@+id/oneBtn"
+            style="@style/ButtonsStyle"
+            android:layout_marginStart="20dp"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/twoBtn"
+            style="@style/ButtonsStyle"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/threeBtn"
+            style="@style/ButtonsStyle"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/subBtn"
+            style="@style/ButtonsStyle"
+            android:background="@drawable/orange_round_btn"
+            android:text="-" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+
+        <TextView
+            android:id="@+id/dotBtn"
+            style="@style/ButtonsStyle"
+            android:layout_marginStart="20dp"
+            android:text="." />
+
+        <TextView
+            android:id="@+id/zeroBtn"
+            style="@style/ButtonsStyle"
+            android:text="0" />
+
+        <ImageView
+            android:id="@+id/deleteBtn"
+            style="@style/ButtonsStyle"
+            android:padding="20dp"
+            android:src="@drawable/ic_clear_24dp" />
+
+        <TextView
+            android:id="@+id/equalBtn"
+            style="@style/ButtonsStyle"
+            android:background="@drawable/orange_round_btn"
+            android:text="=" />
+
+    </LinearLayout>
+</LinearLayout>
